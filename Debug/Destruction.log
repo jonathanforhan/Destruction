@@ -1,0 +1,28 @@
+﻿  Ball.cpp
+  Block.cpp
+  Engine.cpp
+  Entity.cpp
+  EventHandler.cpp
+  Game.cpp
+  main.cpp
+  RenderWindow.cpp
+  Generating Code...
+Game.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_GetError
+Game.obj : error LNK2019: unresolved external symbol _SDL_WaitEvent referenced in function "public: void __thiscall Game::Run(void)" (?Run@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: __thiscall Game::Game(void)" (??0Game@@QAE@XZ)
+Game.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall Game::Run(void)" (?Run@Game@@QAEXXZ)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "public: __thiscall RenderWindow::RenderWindow(char const *,int,int)" (??0RenderWindow@@QAE@PBDHH@Z)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "public: __thiscall RenderWindow::~RenderWindow(void)" (??1RenderWindow@@QAE@XZ)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "public: __thiscall RenderWindow::RenderWindow(char const *,int,int)" (??0RenderWindow@@QAE@PBDHH@Z)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "public: void __thiscall RenderWindow::Clear(void)" (?Clear@RenderWindow@@QAEXXZ)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "public: void __thiscall RenderWindow::Clear(void)" (?Clear@RenderWindow@@QAEXXZ)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_RenderDrawRect referenced in function "public: void __thiscall RenderWindow::Render(class Entity &)" (?Render@RenderWindow@@QAEXAAVEntity@@@Z)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_RenderFillRect referenced in function "public: void __thiscall RenderWindow::Render(class Entity &)" (?Render@RenderWindow@@QAEXAAVEntity@@@Z)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "public: void __thiscall RenderWindow::Display(void)" (?Display@RenderWindow@@QAEXXZ)
+RenderWindow.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "public: __thiscall RenderWindow::~RenderWindow(void)" (??1RenderWindow@@QAE@XZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Jonathan Forhan\OneDrive\Code Share\C++ Share\Destruction\SDL\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Jonathan Forhan\OneDrive\Code Share\C++ Share\Destruction\SDL\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Jonathan Forhan\OneDrive\Code Share\C++ Share\Destruction\SDL_IMG\lib\x64\SDL2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Jonathan Forhan\OneDrive\Code Share\C++ Share\Destruction\Debug\Destruction.exe : fatal error LNK1120: 14 unresolved externals
