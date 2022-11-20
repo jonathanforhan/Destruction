@@ -9,7 +9,7 @@ You can also build the sln file and go through the memory CPU, and GPU usage.
 # How To Play!
 - click and drag ball to lauch it
 - press any key to recover it
-- repeat until you clear the platform
+- repeat until you clear the platform of blocks
 
 # Notes
 This project is written entirely in C++ using the SDL and SDL_image libraries which abstract away some OpenGL functionality and provide image texture loading.
