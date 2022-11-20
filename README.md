@@ -6,6 +6,11 @@ This is a visual studio project for windows, I unfortunately have no idea how to
 Just extract the project and you can run the executable that is there.
 You can also build the sln file and go through the memory CPU, and GPU usage.
 
+# How To Play!
+- click and drag ball to lauch it
+- press any key to recover it
+- repeat until you clear the platform
+
 # Notes
 This project is written entirely in C++ using the SDL and SDL_image libraries which abstract away some OpenGL functionality and provide image texture loading.
 Feel free to check CPU GPU and memory usage we tried to optimize as much as possible but any pointers appreciated.
