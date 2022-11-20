@@ -21,4 +21,4 @@ We work mainly with embedded systems but branching to graphics was fun!
 # Libraries
 - SDL.lib
 - SDL_image.lib
-- std libraries like vector and iostream
+- std libraries like vector and cmath
