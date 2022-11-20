@@ -2,7 +2,7 @@
 Physics Engine made for Software build-a-thon
 
 # Setup
-This is a visual studio project for window, I unfortunately have no idea how to use CMake so sorry about that.
+This is a visual studio project for windows, I unfortunately have no idea how to use CMake so sorry about that.
 Just extract the project and you can run the executable that is there.
 You can also build the sln file and go through the memory CPU, and GPU usage.
 
