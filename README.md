@@ -1,5 +1,5 @@
 # Destruction
-Physics Engine made for Software build-a-thon
+Physics Game made for Software build-a-thon
 
 # Setup
 This is a visual studio project for windows, I unfortunately have no idea how to use CMake so sorry about that.
