@@ -4,7 +4,7 @@ Physics Game made for Software build-a-thon
 # Setup
 This is a visual studio project for windows, I unfortunately have no idea how to use CMake so sorry about that.
 Just extract the project and you can run the executable that is there.
-You can also build the sln file and go through the memory CPU, and GPU usage.
+You can also build the sln file and go through the memory CPU, and GPU trackers.
 
 # How To Play!
 - click and drag ball to lauch it
